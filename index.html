@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Interactive Web Page</h1>
+
+  <!-- Section 1: A Form -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Section 2: Button Interaction -->
+  <section>
+    <h2>Click Counter</h2>
+    <button id="clickBtn">Click Me!</button>
+    <p>You clicked <span id="clickCount">0</span> times.</p>
+  </section>
+
+  <!-- Section 3: Input Interaction -->
+  <section>
+    <h2>Live Text Preview</h2>
+    <input type="text" id="liveInput" placeholder="Type something...">
+    <p>Preview: <span id="previewText"></span></p>
+  </section>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
